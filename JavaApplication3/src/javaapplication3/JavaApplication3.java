@@ -74,17 +74,4 @@ public class JavaApplication3 {
             opcion2 = sc.nextInt();
         } while (opcion2==1);
     }
-    
-     
-     
-     /*public static void RestarNumeros(){
-         Scanner sc = new Scanner(System.in);
-         System.out.println("Ingrese su primer numero: \n");
-         int suma1 = sc.nextInt();
-         System.out.println("Ingrese su segundo numero: \n");
-         int suma2 = sc.nextInt();
-         int resultado  = suma1 + suma2;
-         System.out.println("\n"+ suma1+" + "+suma2+" = " + resultado );
-      }*/
-    
 }
