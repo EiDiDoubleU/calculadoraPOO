@@ -15,7 +15,7 @@ import java.util.Scanner;
 
 public class JavaApplication3 {
     
-    Scanner sc = new Scanner(System.in);
+
     /**
      * @param args the command line arguments
      */
