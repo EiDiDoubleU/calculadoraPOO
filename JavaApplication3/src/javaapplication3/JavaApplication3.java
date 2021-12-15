@@ -63,7 +63,7 @@ public class JavaApplication3 {
                     float div2 = sc.nextFloat();
                 break;
             
-            case 6 :
+            case 5:
                 System.exit(0);
                 break;
             default: 
