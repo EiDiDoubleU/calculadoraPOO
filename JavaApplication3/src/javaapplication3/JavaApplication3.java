@@ -23,6 +23,7 @@ public class JavaApplication3 {
         Scanner sc = new Scanner(System.in);
         int opcion2;
         do{
+            System.out.println("\n\n----Bienvenido a nuestro sistema----\n");
             System.out.println("1.Suma\n");
             System.out.println("2.Resta\n");
             System.out.println("3.Multiplicacion\n");
@@ -34,31 +35,22 @@ public class JavaApplication3 {
 
             switch(opcion){
                 case 1:
-                        System.out.println("Ingrese su primer numero: \n");
-                        float suma1 = sc.nextFloat();
-                        System.out.println("Ingrese su segundo numero: \n");
-                        float suma2 = sc.nextFloat();
-
+                   functions suma = new functions();
+                    suma.SumarNumeros();
                     break;
                 case 2 :
-                    System.out.println("Ingrese su primer numero: \n");
-                        float resta1 = sc.nextFloat();
-                        System.out.println("Ingrese su segundo numero: \n");
-                        float resta2 = sc.nextFloat();
+                    functions resta = new functions();
+                    resta.RestarNumeros();
                     break;
 
                 case 3:
-                    System.out.println("Ingrese su primer numero: \n");
-                        float mul1 = sc.nextFloat();
-                        System.out.println("Ingrese su segundo numero: \n");
-                        float mul2 = sc.nextFloat();
+                    functions productoNumeros = new functions();
+                    productoNumeros.ProductoNumeros();
                     break;
 
                 case 4:
-                    System.out.println("Ingrese su primer numero: \n");
-                        float div1 = sc.nextFloat();
-                        System.out.println("Ingrese su segundo numero: \n");
-                        float div2 = sc.nextFloat();
+                    functions division = new functions();
+                    division.DivisionNumeros();
                     break;
 
                 case 5:
