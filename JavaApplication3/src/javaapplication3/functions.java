@@ -42,7 +42,7 @@ public class functions {
                 resultado  = resta1 - resta2;
                 System.out.println("\n"+ resta1+" - "+resta2+" = " + resultado );
             } catch(Exception e){
-              sc.next();
+                sc.next();
                 System.out.println("\n\n\n\n\n\n\n\nUsted no ingreso un valor numerico");
                 System.out.println("\n-----PORFAVOR REINICIE EL SISTEMA-----");            
             }
@@ -60,6 +60,7 @@ public class functions {
            resultado  = valor1 * valor2;
            System.out.println("\n"+ valor1+" * "+valor2+" = " + resultado );
         }catch(Exception e){
+            sc.next();
             System.out.println("\n\n\n\n\n\n\n\nUsted no ingreso un valor numerico");
             System.out.println("\n-----PORFAVOR REINICIE EL SISTEMA-----");            
         }    
@@ -80,6 +81,7 @@ public class functions {
                 System.out.println("\n"+ valor1+" / "+valor2+" = " + resultado );
             }
         }catch(Exception e){
+            sc.next();
             System.out.println("\n\n\n\n\n\n\n\nUsted no ingreso un valor numerico");
             System.out.println("\n-----PORFAVOR REINICIE EL SISTEMA-----");            
         
